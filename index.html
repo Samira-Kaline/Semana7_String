@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lista</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <h1>Crie sua Lista:</h1>
+  <script src="Semana7_Q1.js"></script>
+  <div id="Criar">
+      <input type="text" size="10" id="quant" name="quant" placeholder="Quantidade:"><br>
+      <input type="text" size="10" id="text" name="text" placeholder="Texto:"><br>
+      <ul id="MinhaLista"></ul>
+      <input type="button" value="Criar" onclick="criarLista(document.getElementById('quant').value,document.getElementById('text').value)">
+    </div>
+  </body>
+</html>
